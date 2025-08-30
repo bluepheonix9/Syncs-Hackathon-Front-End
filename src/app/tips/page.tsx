@@ -51,4 +51,5 @@ const TipsPage: React.FC = () => {
     </>
   );
 }
+
 export default TipsPage;

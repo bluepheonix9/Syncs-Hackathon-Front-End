@@ -1,7 +1,7 @@
 // app/graph/page.tsx
 import React from "react";
 
-const Graph = () => {
+const GraphPage = () => {
   return (
     <div style={{ width: "100%", height: "100vh", textAlign: "center" }}>
       <h1>Sine Wave Plot</h1>

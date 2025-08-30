@@ -11,7 +11,7 @@ const Page: React.FC = () => {
       <div className="flex flex-1">
       <SidebarWrapper>
         <DashboardContent />
-        </SidebarWrapper>
+              </SidebarWrapper>
       </div>
     </div>
   );

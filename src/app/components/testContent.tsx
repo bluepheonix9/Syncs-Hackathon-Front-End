@@ -65,7 +65,7 @@ const TestYourself: React.FC = () => {
 
   const getFeedbackBg = (score: number) => {
     if (score >= 1 && score <= 4) return "bg-red-300";
-    if (score >= 5 && score <= 12) return "bg-yellow-300";
+    if (score >= 5 && score <= 12) return "bg-yellow-00";
     if (score >= 13 && score <= 16) return "bg-green-300";
     return "bg-gray-200";
   };

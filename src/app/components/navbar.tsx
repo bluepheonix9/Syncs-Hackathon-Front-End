@@ -1,22 +1,16 @@
 import React from "react";
-import { ChevronDown, Bell, Menu } from "lucide-react";
+import { ChevronDown, Bell } from "lucide-react";
 
-interface NavbarProps {
-  sidebarCollapsed: boolean;
-  toggleSidebar: () => void;
-}
-
-const Navbar: React.FC<NavbarProps> = ({ sidebarCollapsed, toggleSidebar }) => {
+const Navbar: React.FC = () => {
   return (
     <header className="bg-blue-600 text-white shadow-sm">
       <div className="flex items-center justify-between px-6 py-4">
         <div className="flex items-center space-x-4">
-          <h1 className="text-xl font-semibold">Waste Management Dashboard</h1>
+          <h1 className="text-xl font-semibold">Resource Management Dashboard</h1>
         </div>
-
         <div className="flex items-center space-x-4">
           <div className="flex items-center space-x-2">
-            <span className="text-sm">Lara Mino Enterprises</span>
+            <span className="text-sm">Contact Us</span>
             <ChevronDown className="w-4 h-4" />
           </div>
           <div className="flex items-center space-x-2">
