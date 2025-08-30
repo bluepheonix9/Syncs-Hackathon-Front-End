@@ -1,8 +1,8 @@
 // app/graphs/paper/page.tsx
 "use client";
-import SidebarWrapper from "../../components1/sidebarWrapper";
-import Navbar from "../../components1/navbar";
-import ComingSoon from "../../components1/comingsoon";
+import SidebarWrapper from "../../components/sidebarWrapper";
+import Navbar from "../../components/navbar";
+import ComingSoon from "../../components/comingsoon";
 
 export default function PaperGraphsPage() {
   return (

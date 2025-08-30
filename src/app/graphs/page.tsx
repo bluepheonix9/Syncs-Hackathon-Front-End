@@ -1,8 +1,8 @@
 // app/graphs/page.tsx
 "use client";
 import Link from "next/link";
-import SidebarWrapper from "../components1/sidebarWrapper";
-import Navbar from "../components1/navbar";
+import SidebarWrapper from "../components/sidebarWrapper";
+import Navbar from "../components/navbar";
 
 const graphCategories = [
   { name: "Electricity", path: "/graphs/electricity" },
